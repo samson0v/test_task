@@ -147,7 +147,6 @@ header{
 	text-align: center;
 	margin-left: 30px;
 }
-
 .big-right-box{
 	width: 608px;
 	height: 250px;
@@ -237,12 +236,15 @@ header{
 	width: 9px;
 	height: 9px;
 }
-.perc-layout p{
+.perc-layout p, .perc-layout p.blue{
 	font-weight: 600;
 	font-size: 13px;
 	line-height: 16px;
 	letter-spacing: 0.206929px;	
 	color: #FE805C;
+}
+.perc-layout p.perc-blue{
+	color: #4643D3;
 }
 .small-card p.bot-text{
 	font-weight: normal;
