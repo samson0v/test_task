@@ -329,12 +329,16 @@ header{
 	display: flex;
 	width: 100%;
 	flex-direction: column;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	justify-content: center;
 	align-items: center;
+	margin-top: 50px;
+}
+.two-boxes-section .title-section{
+	margin:0 ;
 }
 .long-box{
-	margin-top: 30px;
+	margin-bottom: 30px;
 	display: flex;
 	width: 65%;
 	height: 50px;
