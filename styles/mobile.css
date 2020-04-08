@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 810px){
 	.content-center-block{
 		width: 87%;
 	}
@@ -17,21 +17,33 @@
 	}
 	.subtitle-box{
 		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.subtitle-box p{
+		text-align: center;
 	}
 	.small-left-box{
 		width: 240px;
 		margin-bottom: 30px;
+		margin-right: 0;
+		align-self: center;
 	}
 	.small-left-box img{
 		width: 90px;
 		height: 90px;
 	}
+	.bottom-part-small-box p.quote{
+		margin-left: 0;
+	}
 
 
 	.big-right-box{
 		width: 240px;
-		height: 500px;
+		height: auto;
 		flex-direction: column;
+		align-self: center;
+		justify-content: center;
+		align-items: center;
 	}
 	.text-layout p.fonts, .text-layout p.mat{
 		text-align: center;
@@ -51,8 +63,16 @@
 	.text-layout{
 		height: auto;
 	}
+	.small-card-layout{
+		height: auto;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.left{margin-right: 0;}
 
-
+	.title-section p{
+		text-align: center;
+	}
 	.tree-box-center{
 		flex-direction: column;
 	}

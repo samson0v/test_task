@@ -68,14 +68,15 @@ header{
 	display: flex;
 	height: auto;
 	flex-direction: column;
+	margin-top: 15px;
 }
 .subtitle-box{
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
 .subtitle-box p{
 	margin: 0;
@@ -93,21 +94,15 @@ header{
 .small-left-box, .big-right-box{
 	border-radius: 35px;
 	box-shadow: 0px 2.84946px 28.4946px rgba(0, 0, 0, 0.25);
-	padding: 37px;
+	padding: 30px;
+	padding-bottom: 20px;
 }
 .small-left-box{
 	width: 411px;
-	height: 191px;
+	height: auto;
 	background: #fff;
 	align-self: flex-end;
-	margin-right: 63px;
-}
-.big-right-box{
-	width: 608px;
-	height: 250px;
-	background: #3664D8;
-	display: flex;
-	flex-direction: row;
+	margin-right: 63px; /*non response*/
 }
 .top-part-small-box{
 	display: flex;
@@ -115,8 +110,8 @@ header{
 	flex-wrap: nowrap;
 }
 .top-part-small-box img{
-	width: 115px;
-	height: 115px;
+	width: 110px;
+	height: 110px;
 	border-radius: 80px;
 	margin-right: 28px;
 }
@@ -151,6 +146,14 @@ header{
 	line-height: 23px;
 	text-align: center;
 	margin-left: 30px;
+}
+
+.big-right-box{
+	width: 608px;
+	height: 250px;
+	background: #3664D8;
+	display: flex;
+	flex-direction: row;
 }
 .left-part-big-box{
 	width: 50%;
@@ -187,11 +190,12 @@ header{
 	margin-top: 20px;
 }
 .small-card{
-	width: 90%;
-	height: 110px;
+	width: auto;
+	height: auto;
 	background: #fff;
 	border-radius: 20px;
 }
+.left{margin-right: 20px;}
 .small-card-title{
 	display: flex;
 	flex-direction: row;
@@ -211,6 +215,7 @@ header{
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items: center;
+	margin-top: 5px;
 }
 .price-layout p.price{
 	font-weight: 600;
@@ -226,6 +231,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	margin-left: 8px;
+	margin-right: 18px;
 }
 .perc-layout img{
 	width: 9px;
@@ -245,6 +251,8 @@ header{
 	color: #AFAFBD;
 	margin: 0;
 	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 18px;
 }
 
 .right-part-big-box{
@@ -267,8 +275,10 @@ header{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
 }
 .title-section p{
+	margin: 0;
 	font-weight: bold;
 	font-size: 32.9px;
 	line-height: 47px;
@@ -364,7 +374,7 @@ header{
 	font-size: 12px;
 	line-height: 16px;
 	opacity: 0.5;
-	color: lightgrey;
+	color: #fff;
 	align-self: flex-start;
 }
 .right-r-t-layout{
@@ -381,11 +391,23 @@ header{
 	opacity: 0.5;
 	font-size: 14px;
 	line-height: 20px;
-	color: darkgrey;
+	color: #fff;
 }
 .right-r-t-layout img.rating{
 	height: 16px;
 	margin-right: 0px;
+}
+.rating-box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 5px;
+}
+.rating-box img{
+	width: 14px;
+	height: 14px;
+	margin: 0;
+	margin-left: 1px;
 }
 
 /* Footer */
